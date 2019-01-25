@@ -1,0 +1,126 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Helvetica, Arial, sans-serif;
+}
+/* header */
+header {
+	padding: 30px;
+	font-size: 35px;
+	color: #ffffff;
+	background-color: #777;
+	text-align: center;
+}
+/* global */
+
+a:link {
+	text-decoration: none;
+}
+
+#london {
+	margin-bottom: 300px;
+	height: 150px;
+}
+
+#paris{
+	margin-bottom: 300px;
+	height: 150px;
+}
+
+
+nav {
+	float: left;
+	padding: 10px;
+	height: 1400px;
+	width: 30%;
+	background: #ffffff;
+	border-right-style: solid; 
+}
+
+/* List inside the cityHeading */
+
+nav ul {
+	list-style-type: none;
+	padding: 10px;
+}
+
+article {
+	float: left;
+	padding: 15px;
+	height: 1400px;
+	width: 70%;
+	background-color: #f1f1f1;
+}
+
+/* City Heading Containing London Paris NewYork City Names*/
+.cityHeading {
+	padding: 10px;
+	margin-bottom: 70px;
+    height: auto;
+	width: auto;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+    background-color: #000000;
+	text-color: #ffffff;
+	text-decoration: none;
+} 
+
+.cityHeading ul {
+	padding: 5px;
+    margin: 5px;
+    height: auto;
+    list-style-type: none;
+}
+
+.cityHeading li { 
+	display: inline; 
+	padding: 8px; 
+}
+
+.cityHeading a {
+	color: #ffffff;
+    text-decoration: none;
+}
+
+.cityHeading a:hover {
+    color: #F90;
+}
+
+.cityDiv{
+    padding: 8px;
+	font-size: 20px;
+    font-weight: bold;
+    clear: both;
+}
+
+.imgLeft{
+    float: left;
+    margin-left: 0px;
+    margin-right: 10px;
+	margin-bottom: 0px;
+    width: 30%;
+}
+
+	
+.cityInformation {
+    color: #000000;
+    font-size: 15px;
+    text-align: justify;
+}
+
+
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+footer {
+	padding: 10px;
+	color: #ffffff;
+	background-color: #777;
+	text-align: center;
+}
